@@ -133,8 +133,8 @@ Using the fileIDs that were returned in Uploading the data, begin filling in you
 
 You can review the job as it completes in your Weights & Biases project as well as at the [fine-tuning interface](https://platform.openai.com/finetune). Once the fine-tuning has completed you can begin to work with your newly trained chatbot assistant at the [OpenAI Playground](https://platform.openai.com/playground).
 
-## Further training of the model
+## Further fine-tuning
 
+For a second pass I have a refined set of training data that covers more key objectives. By repeating the steps above you can create a more powerful customer service chatbot. Use the [ZenNestTrainingData.json](https://github.com/JasonPittsBusiness/ZenNestChatbot/blob/main/Training%20Data/ZenNestTrainingData.json) which has been adjusted to align more with the ZenNest project, note that the first set of data is ZenHome rather than ZenNest. This is in order to perform a clear A/B comparison of key focused objective data.
 
-
-Learn more at https://jasonpittsbusiness.github.io/ZenNest%20Chatbot/.
+Learn more on [my project page](https://jasonpittsbusiness.github.io/ZenNest%20Chatbot/).
