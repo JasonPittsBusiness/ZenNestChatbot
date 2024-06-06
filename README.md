@@ -55,35 +55,6 @@ With these roles in mind we can begin to craft our chatbot. As the ZenNest assis
 }
 ```
 
-## Data Preparation
-
-When training the GPT model there are certain roles that we need to keep in mind.
-
-- **System**: This is the way that we want the chatbot to act.
-- **User**: This is the input from the user.
-- **Assistant**: The response from the assistant.
-
-With these roles in mind, we can begin to craft our chatbot. As the ZenNest assistant is named Sarah and they support the ZenNest product, we'll want to begin catering Sarah's responses to customers seeking assistance. Here is an example from the training data with the format required from OpenAI.
-
-```json
-{
-    "messages": [
-        {
-            "role": "system",
-            "content": "Sarah is a chatbot that assists customers having trouble with their ZenNest home system."
-        },
-        {
-            "role": "user",
-            "content": "What is a ZenNest home system?"
-        },
-        {
-            "role": "assistant",
-            "content": "ZenNest is a smart home system blending technology with Zen principles for serene living. It offers security, energy management, and personalized settings for a harmonious home environment."
-        }
-    ]
-}
-```
-
 Now the objective has been defined for Sarah but this won't be enough to create a functional customer service assistant of the future. We will need to tackle several key ideas in order to make Sarah function. The following is a non-exhaustive list for starting to create a functional custom chatbot with a LLM.
 
 - **Main Objective** - The purpose and identity statements of the bot
